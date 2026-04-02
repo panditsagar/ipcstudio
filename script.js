@@ -1,13 +1,8 @@
 const scrollTopButton = document.querySelector(".scroll-top");
-const seminarVideo = document.querySelector("#seminar-video");
-const seminarThumbnail = document.querySelector("#seminar-thumbnail");
 const backToTopLink = document.querySelector('a[href="#top"]');
-
-const heroVideoConfig = {
-    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    thumbnailUrl: "/thumb.png",
-    thumbnailAlt: "Seminar video thumbnail"
-};
+const seminarVideo = document.querySelector("#seminar-video");
+const seminarVideoFrame = document.querySelector(".video-frame");
+const heroPlayButton = document.querySelector(".video-frame .play-button");
 
 if (scrollTopButton) {
     const toggleScrollTop = () => {
@@ -25,12 +20,6 @@ if (scrollTopButton) {
     });
 }
 
-if (seminarVideo && seminarThumbnail) {
-    seminarVideo.href = heroVideoConfig.videoUrl;
-    seminarThumbnail.src = heroVideoConfig.thumbnailUrl;
-    seminarThumbnail.alt = heroVideoConfig.thumbnailAlt;
-}
-
 if (backToTopLink) {
     backToTopLink.addEventListener("click", (event) => {
         event.preventDefault();
@@ -39,4 +28,30 @@ if (backToTopLink) {
             behavior: "smooth"
         });
     });
+}
+
+if (seminarVideo && heroPlayButton) {
+    const syncHeroPlayButton = () => {
+        heroPlayButton.classList.toggle("is-hidden", !seminarVideo.paused && !seminarVideo.ended);
+    };
+
+    const toggleHeroVideoPlayback = () => {
+        if (seminarVideo.paused || seminarVideo.ended) {
+            seminarVideo.play();
+            return;
+        }
+
+        seminarVideo.pause();
+    };
+
+    seminarVideo.addEventListener("play", syncHeroPlayButton);
+    seminarVideo.addEventListener("pause", syncHeroPlayButton);
+    seminarVideo.addEventListener("ended", syncHeroPlayButton);
+    seminarVideo.controls = false;
+
+    if (seminarVideoFrame) {
+        seminarVideoFrame.addEventListener("click", toggleHeroVideoPlayback);
+    }
+
+    syncHeroPlayButton();
 }

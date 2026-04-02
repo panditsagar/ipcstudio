@@ -48,26 +48,22 @@
 
                 <div class="hero-content-grid">
                     <div class="video-card">
-                       
-                        <a
-                            class="video-frame"
-                            id="seminar-video"
-                            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label="Watch seminar video"
-                        >
-                            <img
-                                class="video-thumbnail"
-                                id="seminar-thumbnail"
-                                src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80"
-                                alt="Seminar video thumbnail"
+                        <div class="video-frame">
+                            <video
+                                class="hero-video"
+                                id="seminar-video"
+                                playsinline
+                                preload="metadata"
+                                poster="/thumb.png"
+                                aria-label="Seminar video"
                             >
-                            <div class="play-button">
+                                <source src="/video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="play-button" aria-hidden="true">
                                 <span></span>
                             </div>
-                       
-                        </a>
+                        </div>
                     </div>
 
                     <div class="details-grid">
@@ -127,8 +123,8 @@
         <section class="learn-section">
             <div class="learn-wrap">
                 <header class="section-heading">
-                    <h2>WHAT “YOU’RE GOING TO LEARN”</h2>
-                    <p>IN GRAND SEMINAR</p>
+                    <h2>WHAT “YOU’RE GOING TO LEARN” <span>IN GRAND SEMINAR</span></h2>
+                    
                 </header>
 
                 <div class="learn-grid learn-grid-top">
