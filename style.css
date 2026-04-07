@@ -252,7 +252,7 @@ iframe {
   left: 50%;
   top: 50%;
   z-index: 2;
-  display: grid;
+  display: none;
   place-items: center;
   width: 110px;
   height: 76px;
@@ -261,6 +261,7 @@ iframe {
   transform: translate(-50%, -50%);
   pointer-events: none;
   transition: opacity 0.2s ease, visibility 0.2s ease;
+  
 }
 
 .play-button.is-hidden {
@@ -515,6 +516,7 @@ iframe {
 .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
 }
 
 .testimonial-card {

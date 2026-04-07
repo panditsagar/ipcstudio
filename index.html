@@ -1,857 +1,1218 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wedding Photography Seminar</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main class="page-shell">
-        <section class="hero-section">
-            <div class="top-strip">
-                <i class="fa-solid fa-triangle-exclamation warning-icon" aria-hidden="true"></i>
-                <span>Attention Wedding Photographers</span>
+      <section class="hero-section">
+        <div class="top-strip">
+          <i
+            class="fa-solid fa-triangle-exclamation warning-icon"
+            aria-hidden="true"
+          ></i>
+          <span>Attention Wedding Photographers</span>
+        </div>
+
+        <div class="hero-wrap">
+          <div class="pill live-pill">
+            <i class="fa-solid fa-play play-mini" aria-hidden="true"></i>
+            <span>LIVE</span>
+          </div>
+
+          <div class="pill seminar-pill">ONLINE 2 DAYS SEMINAR</div>
+
+          <header class="hero-copy">
+            <h1>
+              Learn
+              <span class="text-red underline-red">6 Hidden Secrets</span> to
+              <span class="text-red">Grow</span> Your
+              <span class="text-blue">Wedding Photography Business</span> to
+              <span class="text-red underline-red">1 Crore/Year</span>
+              Turnover In 2026 (Guaranteed)
+            </h1>
+
+            <p class="hero-proof">
+              Trusted by
+              <span class="text-blue">98,671+ Photographers</span> &amp; Scaled
+              <span class="text-blue">250+ Photogrpahers</span> to
+              <span class="text-red underline-red">50 Lacs to 1 Crore</span> a
+              Year
+            </p>
+          </header>
+
+          <div class="event-banner">
+            <p>NEXT ONLINE SEMINAR</p>
+            <p class="underline-white">7TH &amp; 8TH APR, TUESDAY @ 11 AM</p>
+          </div>
+
+          <div class="hero-content-grid">
+            <div class="video-card">
+              <div class="video-frame">
+                <script src="https://fast.wistia.com/player.js" async></script>
+                <script
+                  src="https://fast.wistia.com/embed/3yot0ne1jd.js"
+                  async
+                  type="module"
+                ></script>
+                <style>
+                  wistia-player[media-id="3yot0ne1jd"]:not(:defined) {
+                    background: center / contain no-repeat
+                      url("https://fast.wistia.com/embed/medias/3yot0ne1jd/swatch");
+                    display: block;
+                    filter: blur(5px);
+                    padding-top: 56.25%;
+                  }
+                </style>
+                <wistia-player
+                  media-id="3yot0ne1jd"
+                  aspect="1.7777777777777777"
+                ></wistia-player>
+
+                <div class="play-button" aria-hidden="true">
+                  <span></span>
+                </div>
+              </div>
             </div>
 
-            <div class="hero-wrap">
-                <div class="pill live-pill">
-                    <i class="fa-solid fa-play play-mini" aria-hidden="true"></i>
-                    <span>LIVE</span>
+            <div class="details-grid">
+              <article class="detail-card">
+                <div class="detail-icon">
+                  <i class="fa-regular fa-calendar-days" aria-hidden="true"></i>
                 </div>
-
-                <div class="pill seminar-pill">ONLINE 2 DAYS SEMINAR</div>
-
-                <header class="hero-copy">
-                    <h1>
-                        Learn <span class="text-red underline-red">6 Hidden Secrets</span> to <span class="text-red">Grow</span> Your
-                        <span class="text-blue">Wedding Photography Business</span> to
-                        <span class="text-red underline-red">1 Crore/Year</span>
-                        Turnover In 2026 (Guaranteed)
-                    </h1>
-
-                    <p class="hero-proof">
-                        Trusted by <span class="text-blue">98,671+ Photographers</span> &amp; Scaled
-                        <span class="text-blue">250+ Photogrpahers</span> to
-                        <span class="text-red underline-red">50 Lacs to 1 Crore</span> a Year
-                    </p>
-                </header>
-
-                <div class="event-banner">
-                    <p>NEXT ONLINE SEMINAR</p>
-                    <p class="underline-white">7TH &amp; 8TH APR, TUESDAY @ 11 AM</p>
+                <div>
+                  <h3>Dates</h3>
+                  <p>7th &amp; 8th Apr.</p>
                 </div>
+              </article>
 
-                <div class="hero-content-grid">
-                    <div class="video-card">
-                        <div class="video-frame">
-                            <video
-                                class="hero-video"
-                                id="seminar-video"
-                                playsinline
-                                preload="metadata"
-                                poster="/thumb.png"
-                                aria-label="Seminar video"
-                            >
-                                <source src="/video.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            <div class="play-button" aria-hidden="true">
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="details-grid">
-                        <article class="detail-card">
-                            <div class="detail-icon">
-                                <i class="fa-regular fa-calendar-days" aria-hidden="true"></i>
-                            </div>
-                            <div>
-                                <h3>Dates</h3>
-                                <p>7th &amp; 8th Apr.</p>
-                            </div>
-                        </article>
-
-                        <article class="detail-card">
-                            <div class="detail-icon">
-                                <i class="fa-regular fa-clock" aria-hidden="true"></i>
-                            </div>
-                            <div>
-                                <h3>Time</h3>
-                                <p>11:00 AM</p>
-                            </div>
-                        </article>
-
-                        <article class="detail-card">
-                            <div class="detail-icon">
-                                <i class="fa-solid fa-hourglass-half" aria-hidden="true"></i>
-                            </div>
-                            <div>
-                                <h3>Duration</h3>
-                                <p>3 Hours</p>
-                            </div>
-                        </article>
-
-                        <article class="detail-card">
-                            <div class="detail-icon">
-                                <i class="fa-solid fa-video" aria-hidden="true"></i>
-                            </div>
-                            <div>
-                                <h3>LIVE</h3>
-                                <p>on Zoom</p>
-                            </div>
-                        </article>
-                    </div>
+              <article class="detail-card">
+                <div class="detail-icon">
+                  <i class="fa-regular fa-clock" aria-hidden="true"></i>
                 </div>
+                <div>
+                  <h3>Time</h3>
+                  <p>11:00 AM</p>
+                </div>
+              </article>
 
-                <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
+              <article class="detail-card">
+                <div class="detail-icon">
+                  <i class="fa-solid fa-hourglass-half" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h3>Duration</h3>
+                  <p>3 Hours</p>
+                </div>
+              </article>
+
+              <article class="detail-card">
+                <div class="detail-icon">
+                  <i class="fa-solid fa-video" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h3>LIVE</h3>
+                  <p>on Zoom</p>
+                </div>
+              </article>
             </div>
+          </div>
 
-            <button class="scroll-top" type="button" aria-label="Scroll to top">
-                <span></span>
-            </button>
-        </section>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
 
-        <section class="learn-section">
-            <div class="learn-wrap">
-                <header class="section-heading">
-                    <h2>WHAT “YOU’RE GOING TO LEARN” <span>IN GRAND SEMINAR</span></h2>
-                    
-                </header>
+        <button class="scroll-top" type="button" aria-label="Scroll to top">
+          <span></span>
+        </button>
+      </section>
 
-                <div class="learn-grid learn-grid-top">
-                    <article class="learn-card">
-                        <img src="/sem1.png" alt="Wedding photography learning topic">
-                        <div class="learn-card-body">
-                            <p>How to Start &amp; Grow Your Own High-Profits Wedding Photography without Any Investment in Camera.</p>
-                        </div>
-                    </article>
+      <section class="learn-section">
+        <div class="learn-wrap">
+          <header class="section-heading">
+            <h2>WHAT “YOU’RE GOING TO LEARN” <span>IN GRAND SEMINAR</span></h2>
+          </header>
 
-                    <article class="learn-card">
-                        <img src="/sem2.png" alt="Wedding photography business brand topic">
-                        <div class="learn-card-body">
-                            <p>How to Make a Big Wedding Photography Business Brand &amp; Get an Unlimited Number of Leads Daily</p>
-                        </div>
-                    </article>
-
-                    <article class="learn-card">
-                        <img src="/sem3.png" alt="Wedding photography business from home topic">
-                        <div class="learn-card-body">
-                            <p>How to Start Your Wedding Photography Business without Any Studio or Office</p>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="learn-grid learn-grid-bottom">
-                    <article class="learn-card">
-                        <img src="/sem4.png" alt="Wedding photography revenue growth topic">
-                        <div class="learn-card-body">
-                            <p>How to Make Minimum 30 Lacs+/Year Revenue in Your Wedding Photography Business</p>
-                        </div>
-                    </article>
-
-                    <article class="learn-card">
-                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="High budget clients and leads topic">
-                        <div class="learn-card-body">
-                            <p>The Secret to Reach High-Budget Clients and Get Daily Work Enquiries/Leads</p>
-                        </div>
-                    </article>
-                </div>
-
-                <section class="testimonials-section">
-                    <div class="testimonial-grid">
-                        <article class="testimonial-card">
-                            <a class="testimonial-video" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch testimonial video 1">
-                                <img src="/thumb1.png" alt="Testimonial video thumbnail 1">
-                                <span class="testimonial-play" aria-hidden="true"></span>
-                            </a>
-                        </article>
-
-                        <article class="testimonial-card">
-                            <a class="testimonial-video" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch testimonial video 2">
-                                <img src="/thumb2.png" alt="Testimonial video thumbnail 2">
-                                <span class="testimonial-play" aria-hidden="true"></span>
-                            </a>
-                        </article>
-
-                        <article class="testimonial-card">
-                            <a class="testimonial-video" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch testimonial video 3">
-                                <img src="/thumb3.png" alt="Testimonial video thumbnail 3">
-                                <span class="testimonial-play" aria-hidden="true"></span>
-                            </a>
-                        </article>
-
-                        <article class="testimonial-card">
-                            <a class="testimonial-video" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch testimonial video 4">
-                                <img src="/thumb4.png" alt="Testimonial video thumbnail 4">
-                                <span class="testimonial-play" aria-hidden="true"></span>
-                            </a>
-                        </article>
-                    </div>
-                </section>
-                 <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
-            </div>
-            
-        </section>
-
-        <section class="challenges-section">
-            <div class="challenges-wrap">
-                <header class="challenges-header">
-                    <h2>Are You Facing challenges ?</h2>
-                    <p>Please Check All Boxes Where Your Answer Is Yes!</p>
-                </header>
-
-                <div class="challenges-grid">
-                    <article class="challenge-box">No Respect from Clients or Studio Owners</article>
-                    <article class="challenge-box">Poor Health Because of Continue Shoots</article>
-                    <article class="challenge-box">Delayed Payments from Studio Owners</article>
-                    <article class="challenge-box">Struggle of Every Month to Pay Camera EMI's</article>
-                    <article class="challenge-box">Low Income Because of Seasonal Work</article>
-                    <article class="challenge-box">High- Maintenance Cost of Equipment</article>
-                </div>
-                <p class="challenges-note">
-                    If You’ve Checked ANY Of The Boxes Above, Then My Friend You’re Invited &amp; Highly
-                    Welcomed To Join This 😍 "Free Workshop"
+          <div class="learn-grid learn-grid-top">
+            <article class="learn-card">
+              <img src="/sem1.png" alt="Wedding photography learning topic" />
+              <div class="learn-card-body">
+                <p>
+                  How to Start &amp; Grow Your Own High-Profits Wedding
+                  Photography without Any Investment in Camera.
                 </p>
-                <div class="challenge-videos">
-                    <article class="challenge-video-card">
-                        <a class="challenge-video-frame" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch challenge video 1">
-                            <img src="/thumb5.png" alt="Challenge video thumbnail 1">
-                            <span class="challenge-video-play" aria-hidden="true"></span>
-                        </a>
-                    </article>
+              </div>
+            </article>
 
-                    <article class="challenge-video-card">
-                        <a class="challenge-video-frame" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch challenge video 2">
-                            <img src="/thumb6.png" alt="Challenge video thumbnail 2">
-                            <span class="challenge-video-play" aria-hidden="true"></span>
-                        </a>
-                    </article>
-
-                    <article class="challenge-video-card">
-                        <a class="challenge-video-frame" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch challenge video 3">
-                            <img src="/thumb7.png" alt="Challenge video thumbnail 3">
-                            <span class="challenge-video-play" aria-hidden="true"></span>
-                        </a>
-                    </article>
-                </div>
-                <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
-            
-            </div>
-        </section>
-
-        <section class="secret-section">
-            <div class="secret-wrap">
-                <header class="secret-header">
-                    <h2>WHAT IF <span>I TOLD YOU...</span></h2>
-                    <p>You Can Instantly Boost And Skyrocket Your Income With This “Secret</p>
-                </header>
-
-                <div class="secret-panel">
-                    <h3>Yes... You Heard It Right!</h3>
-
-                    <p class="secret-point">
-                        <span class="secret-dot" aria-hidden="true"></span>
-                        Here Is The Mistake That Most People Usually Make: Underestimating The
-                        Importance Of Marketing, Neglecting Business Planning And Not Prioritising Self-
-                        Development.
-                    </p>
-
-                    <p class="secret-mid">Then My Friend I’ve Got Super Good News For You!!!</p>
-
-                    <p class="secret-point">
-                        <span class="secret-dot" aria-hidden="true"></span>
-                        I’m Going To Share My 100% Proven Strategies, Hacks and Tactics That Helped
-                        Over 2,400+ Individuals To Build 6 Figures With Wedding Photography Business.
-                    </p>
-                </div>
-
-                <p class="secret-note">
-                    If you want to fix it and want to become a hero 😎 of Photography business industry.
+            <article class="learn-card">
+              <img
+                src="/sem2.png"
+                alt="Wedding photography business brand topic"
+              />
+              <div class="learn-card-body">
+                <p>
+                  How to Make a Big Wedding Photography Business Brand &amp; Get
+                  an Unlimited Number of Leads Daily
                 </p>
+              </div>
+            </article>
 
-                <div class="secret-videos">
-                    <article class="secret-video-card">
-                        <a class="secret-video-frame" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch success video 1">
-                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" alt="Success video thumbnail 1">
-                            <span class="secret-video-play" aria-hidden="true"></span>
-                        </a>
-                    </article>
+            <article class="learn-card">
+              <img
+                src="/sem3.png"
+                alt="Wedding photography business from home topic"
+              />
+              <div class="learn-card-body">
+                <p>
+                  How to Start Your Wedding Photography Business without Any
+                  Studio or Office
+                </p>
+              </div>
+            </article>
+          </div>
 
-                    <article class="secret-video-card">
-                        <a class="secret-video-frame" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch success video 2">
-                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80" alt="Success video thumbnail 2">
-                            <span class="secret-video-play" aria-hidden="true"></span>
-                        </a>
-                    </article>
+          <div class="learn-grid learn-grid-bottom">
+            <article class="learn-card">
+              <img
+                src="/sem4.png"
+                alt="Wedding photography revenue growth topic"
+              />
+              <div class="learn-card-body">
+                <p>
+                  How to Make Minimum 30 Lacs+/Year Revenue in Your Wedding
+                  Photography Business
+                </p>
+              </div>
+            </article>
 
-                    <article class="secret-video-card">
-                        <a class="secret-video-frame" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" aria-label="Watch success video 3">
-                            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Success video thumbnail 3">
-                            <span class="secret-video-play" aria-hidden="true"></span>
-                        </a>
-                    </article>
-                </div>
-                    <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
+            <article class="learn-card">
+              <img
+                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+                alt="High budget clients and leads topic"
+              />
+              <div class="learn-card-body">
+                <p>
+                  The Secret to Reach High-Budget Clients and Get Daily Work
+                  Enquiries/Leads
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <section class="testimonials-section">
+            <div class="testimonial-grid">
+              <article class="testimonial-card">
+                <script src="https://fast.wistia.com/player.js" async></script>
+                <script
+                  src="https://fast.wistia.com/embed/nwm8zbwly2.js"
+                  async
+                  type="module"
+                ></script>
+                <style>
+                  wistia-player[media-id="nwm8zbwly2"]:not(:defined) {
+                    background: center / contain no-repeat
+                      url("https://fast.wistia.com/embed/medias/nwm8zbwly2/swatch");
+                    display: block;
+                    filter: blur(5px);
+                    padding-top: 177.78%;
+                  }
+                </style>
+                <wistia-player
+                  media-id="nwm8zbwly2"
+                  aspect="0.5625"
+                ></wistia-player>
+              </article>
+
+              <article class="testimonial-card">
+                <script src="https://fast.wistia.com/player.js" async></script>
+                <script
+                  src="https://fast.wistia.com/embed/w6hqo53lo3.js"
+                  async
+                  type="module"
+                ></script>
+                <style>
+                  wistia-player[media-id="w6hqo53lo3"]:not(:defined) {
+                    background: center / contain no-repeat
+                      url("https://fast.wistia.com/embed/medias/w6hqo53lo3/swatch");
+                    display: block;
+                    filter: blur(5px);
+                    padding-top: 177.78%;
+                  }
+                </style>
+                <wistia-player
+                  media-id="w6hqo53lo3"
+                  aspect="0.5625"
+                ></wistia-player>
+              </article>
+
+              <article class="testimonial-card">
+                <script src="https://fast.wistia.com/player.js" async></script>
+                <script
+                  src="https://fast.wistia.com/embed/jev7iqsrbz.js"
+                  async
+                  type="module"
+                ></script>
+                <style>
+                  wistia-player[media-id="jev7iqsrbz"]:not(:defined) {
+                    background: center / contain no-repeat
+                      url("https://fast.wistia.com/embed/medias/jev7iqsrbz/swatch");
+                    display: block;
+                    filter: blur(5px);
+                    padding-top: 177.78%;
+                  }
+                </style>
+                <wistia-player
+                  media-id="jev7iqsrbz"
+                  aspect="0.5625"
+                ></wistia-player>
+              </article>
+
+              <article class="testimonial-card">
+                <script src="https://fast.wistia.com/player.js" async></script>
+                <script
+                  src="https://fast.wistia.com/embed/hv7q2t47b6.js"
+                  async
+                  type="module"
+                ></script>
+                <style>
+                  wistia-player[media-id="hv7q2t47b6"]:not(:defined) {
+                    background: center / contain no-repeat
+                      url("https://fast.wistia.com/embed/medias/hv7q2t47b6/swatch");
+                    display: block;
+                    filter: blur(5px);
+                    padding-top: 177.78%;
+                  }
+                </style>
+                <wistia-player
+                  media-id="hv7q2t47b6"
+                  aspect="0.5625"
+                ></wistia-player>
+              </article>
             </div>
-        </section>
+          </section>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
+      </section>
 
-        <section class="crores-section">
-            <div class="crores-wrap">
-                <header class="crores-header">
-                    <h2>
-                        <span class="crores-emoji">🥳</span>
-                        How Did I make <span>Rs 3.6 Crores</span> in my Wedding
-                        <span>Photography Business.</span> Watch the Video Below
-                        <span class="crores-point">👇</span>
-                    </h2>
-                </header>
+      <section class="challenges-section">
+        <div class="challenges-wrap">
+          <header class="challenges-header">
+            <h2>Are You Facing challenges ?</h2>
+            <p>Please Check All Boxes Where Your Answer Is Yes!</p>
+          </header>
 
-                <div class="crores-image-frame">
-                    <img
-                        src="/table.png"
-                        alt="Revenue dashboard screenshot"
-                    >
-                </div>
+          <div class="challenges-grid">
+            <article class="challenge-box">
+              No Respect from Clients or Studio Owners
+            </article>
+            <article class="challenge-box">
+              Poor Health Because of Continue Shoots
+            </article>
+            <article class="challenge-box">
+              Delayed Payments from Studio Owners
+            </article>
+            <article class="challenge-box">
+              Struggle of Every Month to Pay Camera EMI's
+            </article>
+            <article class="challenge-box">
+              Low Income Because of Seasonal Work
+            </article>
+            <article class="challenge-box">
+              High- Maintenance Cost of Equipment
+            </article>
+          </div>
+          <p class="challenges-note">
+            If You’ve Checked ANY Of The Boxes Above, Then My Friend You’re
+            Invited &amp; Highly Welcomed To Join This 😍 "Free Workshop"
+          </p>
+          <div class="challenge-videos">
+            <article class="challenge-video-card">
+              <script src="https://fast.wistia.com/player.js" async></script>
+              <script
+                src="https://fast.wistia.com/embed/jev7iqsrbz.js"
+                async
+                type="module"
+              ></script>
+              <style>
+                wistia-player[media-id="jev7iqsrbz"]:not(:defined) {
+                  background: center / contain no-repeat
+                    url("https://fast.wistia.com/embed/medias/jev7iqsrbz/swatch");
+                  display: block;
+                  filter: blur(5px);
+                  padding-top: 177.78%;
+                }
+              </style>
+              <wistia-player
+                media-id="jev7iqsrbz"
+                aspect="0.5625"
+              ></wistia-player>
+            </article>
 
-                <div class="crores-videos">
-                    <article class="crores-video-card">
-                        <div class="crores-video-frame crores-video-embed">
-                            <iframe
-                                src="https://www.youtube.com/embed/7S9H3UFHc5Q"
-                                title="Crores video 1"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
+            <article class="challenge-video-card">
+              <script src="https://fast.wistia.com/player.js" async></script>
+              <script
+                src="https://fast.wistia.com/embed/e0bdvpiftl.js"
+                async
+                type="module"
+              ></script>
+              <style>
+                wistia-player[media-id="e0bdvpiftl"]:not(:defined) {
+                  background: center / contain no-repeat
+                    url("https://fast.wistia.com/embed/medias/e0bdvpiftl/swatch");
+                  display: block;
+                  filter: blur(5px);
+                  padding-top: 177.78%;
+                }
+              </style>
+              <wistia-player
+                media-id="e0bdvpiftl"
+                aspect="0.5625"
+              ></wistia-player>
+            </article>
 
-                    <article class="crores-video-card">
-                        <div class="crores-video-frame crores-video-embed">
-                            <iframe
-                                src="https://www.youtube.com/embed/JCHQzp6nQM4"
-                                title="Crores video 2"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
-                </div>
-                    <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
+            <article class="challenge-video-card">
+              <script src="https://fast.wistia.com/player.js" async></script>
+              <script
+                src="https://fast.wistia.com/embed/2k8wkhnl5b.js"
+                async
+                type="module"
+              ></script>
+              <style>
+                wistia-player[media-id="2k8wkhnl5b"]:not(:defined) {
+                  background: center / contain no-repeat
+                    url("https://fast.wistia.com/embed/medias/2k8wkhnl5b/swatch");
+                  display: block;
+                  filter: blur(5px);
+                  padding-top: 177.78%;
+                }
+              </style>
+              <wistia-player
+                media-id="2k8wkhnl5b"
+                aspect="0.5625"
+              ></wistia-player>
+            </article>
+          </div>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="secret-section">
+        <div class="secret-wrap">
+          <header class="secret-header">
+            <h2>WHAT IF <span>I TOLD YOU...</span></h2>
+            <p>
+              You Can Instantly Boost And Skyrocket Your Income With This
+              “Secret
+            </p>
+          </header>
+
+          <div class="secret-panel">
+            <h3>Yes... You Heard It Right!</h3>
+
+            <p class="secret-point">
+              <span class="secret-dot" aria-hidden="true"></span>
+              Here Is The Mistake That Most People Usually Make: Underestimating
+              The Importance Of Marketing, Neglecting Business Planning And Not
+              Prioritising Self- Development.
+            </p>
+
+            <p class="secret-mid">
+              Then My Friend I’ve Got Super Good News For You!!!
+            </p>
+
+            <p class="secret-point">
+              <span class="secret-dot" aria-hidden="true"></span>
+              I’m Going To Share My 100% Proven Strategies, Hacks and Tactics
+              That Helped Over 2,400+ Individuals To Build 6 Figures With
+              Wedding Photography Business.
+            </p>
+          </div>
+
+          <p class="secret-note">
+            If you want to fix it and want to become a hero 😎 of Photography
+            business industry.
+          </p>
+
+          <div class="secret-videos">
+            <article class="secret-video-card">
+              <script src="https://fast.wistia.com/player.js" async></script>
+              <script
+                src="https://fast.wistia.com/embed/27vfju65zs.js"
+                async
+                type="module"
+              ></script>
+              <style>
+                wistia-player[media-id="27vfju65zs"]:not(:defined) {
+                  background: center / contain no-repeat
+                    url("https://fast.wistia.com/embed/medias/27vfju65zs/swatch");
+                  display: block;
+                  filter: blur(5px);
+                  padding-top: 56.25%;
+                }
+              </style>
+              <wistia-player
+                media-id="27vfju65zs"
+                aspect="1.7777777777777777"
+              ></wistia-player>
+            </article>
+
+            <article class="secret-video-card">
+              <script src="https://fast.wistia.com/player.js" async></script>
+              <script
+                src="https://fast.wistia.com/embed/27vfju65zs.js"
+                async
+                type="module"
+              ></script>
+              <style>
+                wistia-player[media-id="27vfju65zs"]:not(:defined) {
+                  background: center / contain no-repeat
+                    url("https://fast.wistia.com/embed/medias/27vfju65zs/swatch");
+                  display: block;
+                  filter: blur(5px);
+                  padding-top: 56.25%;
+                }
+              </style>
+              <wistia-player
+                media-id="27vfju65zs"
+                aspect="1.7777777777777777"
+              ></wistia-player>
+            </article>
+
+            <article class="secret-video-card">
+              <script src="https://fast.wistia.com/player.js" async></script>
+              <script
+                src="https://fast.wistia.com/embed/27vfju65zs.js"
+                async
+                type="module"
+              ></script>
+              <style>
+                wistia-player[media-id="27vfju65zs"]:not(:defined) {
+                  background: center / contain no-repeat
+                    url("https://fast.wistia.com/embed/medias/27vfju65zs/swatch");
+                  display: block;
+                  filter: blur(5px);
+                  padding-top: 56.25%;
+                }
+              </style>
+              <wistia-player
+                media-id="27vfju65zs"
+                aspect="1.7777777777777777"
+              ></wistia-player>
+            </article>
+          </div>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="crores-section">
+        <div class="crores-wrap">
+          <header class="crores-header">
+            <h2>
+              <span class="crores-emoji">🥳</span>
+              How Did I make <span>Rs 3.6 Crores</span> in my Wedding
+              <span>Photography Business.</span> Watch the Video Below
+              <span class="crores-point">👇</span>
+            </h2>
+          </header>
+
+          <div class="crores-image-frame">
+            <img src="/table.png" alt="Revenue dashboard screenshot" />
+          </div>
+
+          <div class="crores-videos">
+            <article class="crores-video-card">
+              <div class="crores-video-frame crores-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/7S9H3UFHc5Q"
+                  title="Crores video 1"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+
+            <article class="crores-video-card">
+              <div class="crores-video-frame crores-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/JCHQzp6nQM4"
+                  title="Crores video 2"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+          </div>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="worth-section">
+        <div class="worth-wrap">
+          <header class="worth-header">
+            <h2>IS IT WORTH IT?</h2>
+            <p>What, Time ⏳ Or Money 💸 ? Decision Is Yours</p>
+          </header>
+
+          <div class="worth-grid">
+            <article class="worth-card">
+              <h3>After The Workshop</h3>
+              <ul class="worth-list worth-list-positive">
+                <li>Free From Loans</li>
+                <li>Clarity and Vision</li>
+                <li>Personalised Action Plan</li>
+                <li>Increased Income Potential</li>
+                <li>Master Of Pricing and Profitability</li>
+              </ul>
+            </article>
+
+            <article class="worth-card">
+              <h3>Before The Workshop</h3>
+              <ul class="worth-list worth-list-negative">
+                <li>Limited Finance</li>
+                <li>Stuck With Loans</li>
+                <li>Lack of Action Plan</li>
+                <li>Lack Of Pricing techniques</li>
+                <li>Confused and Lack of Vision</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="worth-videos">
+            <article class="worth-video-card">
+              <div class="worth-video-frame worth-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/4WwMevMW3MA?si=Ntn-Tc3L6gbpnYq-"
+                  title="Worth it video 1"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+
+            <article class="worth-video-card">
+              <div class="worth-video-frame worth-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/JCHQzp6nQM4?si=s6tW5je8XHLLIlFz"
+                  title="Worth it video 2"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+          </div>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="bootcamp-section">
+        <div class="bootcamp-wrap">
+          <header class="bootcamp-header">
+            <h2>
+              <span>SUCCESS STORIES</span> OF OUR FREELANCE PHOTOGRAPHERS AFTER
+              LEARNING FROM
+              <span>BOOTCAMP</span>
+            </h2>
+          </header>
+
+          <div class="bootcamp-videos">
+            <article class="bootcamp-video-card">
+              <div class="bootcamp-video-frame bootcamp-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/i0IYSuFlgec?si=rxl2y8y8t7VuOH-R"
+                  title="Bootcamp success video 1"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+
+            <article class="bootcamp-video-card">
+              <div class="bootcamp-video-frame bootcamp-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/8pSIpjq-d3U?si=QXGw4OXeoO5nfLqr"
+                  title="Bootcamp success video 2"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+
+            <article class="bootcamp-video-card">
+              <div class="bootcamp-video-frame bootcamp-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/KHQa0YgBBlU?si=8kgnSHIrsMxpWH6a"
+                  title="Bootcamp success video 3"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="results-gallery-section">
+        <div class="results-gallery-wrap">
+          <div class="results-gallery-grid">
+            <figure class="results-gallery-card">
+              <img src="/test1.png" alt="Client result screenshot 1" />
+            </figure>
+
+            <figure class="results-gallery-card">
+              <img src="/test2.png" alt="Client result screenshot 2" />
+            </figure>
+
+            <figure class="results-gallery-card">
+              <img src="/test3.png" alt="Client result screenshot 3" />
+            </figure>
+
+            <figure class="results-gallery-card">
+              <img src="/test4.png" alt="Client result screenshot 4" />
+            </figure>
+
+            <figure class="results-gallery-card results-gallery-card-tall">
+              <img src="/test5.png" alt="Client result screenshot 5" />
+            </figure>
+
+            <figure class="results-gallery-card">
+              <img src="/test6.png" alt="Client result screenshot 6" />
+            </figure>
+          </div>
+        </div>
+        <a class="cta-button" href="#book-seat">
+          <span>CLICK HERE TO BOOK YOUR SEAT</span>
+          <small>Last 5 Seats Left ! Join Now</small>
+        </a>
+      </section>
+
+      <section class="trainer-section">
+        <div class="trainer-wrap">
+          <header class="trainer-header">
+            <h2>
+              BUT <span>“WHY AM I SHARING MY SECRETS?”</span>
+              WITH YOU &amp; WHO AM I...???
+            </h2>
+            <p>MEET YOUR TRAINER</p>
+          </header>
+
+          <div class="trainer-top">
+            <div class="trainer-image-card">
+              <img src="/about.png" alt="Trainer portrait" />
             </div>
-        </section>
 
-        <section class="worth-section">
-            <div class="worth-wrap">
-                <header class="worth-header">
-                    <h2>IS IT WORTH IT?</h2>
-                    <p>What, Time ⏳ Or Money 💸 ? Decision Is Yours</p>
-                </header>
-
-                <div class="worth-grid">
-                    <article class="worth-card">
-                        <h3>After The Workshop</h3>
-                        <ul class="worth-list worth-list-positive">
-                            <li>Free From Loans</li>
-                            <li>Clarity and Vision</li>
-                            <li>Personalised Action Plan</li>
-                            <li>Increased Income Potential</li>
-                            <li>Master Of Pricing and Profitability</li>
-                        </ul>
-                    </article>
-
-                    <article class="worth-card">
-                        <h3>Before The Workshop</h3>
-                        <ul class="worth-list worth-list-negative">
-                            <li>Limited Finance</li>
-                            <li>Stuck With Loans</li>
-                            <li>Lack of Action Plan</li>
-                            <li>Lack Of Pricing techniques</li>
-                            <li>Confused and Lack of Vision</li>
-                        </ul>
-                    </article>
-                </div>
-
-                <div class="worth-videos">
-                    <article class="worth-video-card">
-                        <div class="worth-video-frame worth-video-embed">
-                            <iframe
-                                src="https://www.youtube.com/embed/4WwMevMW3MA?si=Ntn-Tc3L6gbpnYq-" 
-                                title="Worth it video 1"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
-
-                    <article class="worth-video-card">
-                        <div class="worth-video-frame worth-video-embed">
-                            <iframe
-                                src="https://www.youtube.com/embed/JCHQzp6nQM4?si=s6tW5je8XHLLIlFz" 
-                                title="Worth it video 2"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
-                </div>
-                    <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
+            <div class="trainer-info-card">
+              <h3>Abdullah Ansari</h3>
+              <p class="trainer-role">Wedding Photography Business Coach</p>
+              <p class="trainer-role">
+                Founder - Wedding Photography Business Mastery
+              </p>
+              <p class="trainer-summary">
+                After completing his MBA from IIM Raipur, Abdullah chose the
+                path of Wedding Photography and Films as his passion and started
+                his own company "Grey White Studios". In last 3 years, his
+                company has achieved a turnover of more than 1.5 crores INR
+              </p>
             </div>
-        </section>
+          </div>
 
-        <section class="bootcamp-section">
-            <div class="bootcamp-wrap">
-                <header class="bootcamp-header">
-                    <h2>
-                        <span>SUCCESS STORIES</span> OF OUR FREELANCE
-                        PHOTOGRAPHERS AFTER LEARNING FROM
-                        <span>BOOTCAMP</span>
-                    </h2>
-                </header>
+          <div class="trainer-bio-card">
+            <p>
+              Born and brought up in Delhi, he always wanted to do something of
+              his own. He left a high paying job at IIM's to work on his passion
+              of Wedding Photography. He is an MBA in Marketing and Human
+              Resources. His company Grey White Studios has a clientele from the
+              Tollywood Industry and has shot the weddings of renowned tycoons
+              of Business.
+            </p>
 
-                <div class="bootcamp-videos">
-                    <article class="bootcamp-video-card">
-                        <div class="bootcamp-video-frame bootcamp-video-embed">
-                            <iframe
-                                src="https://www.youtube.com/embed/i0IYSuFlgec?si=rxl2y8y8t7VuOH-R" 
-                                title="Bootcamp success video 1"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
+            <p>
+              A Photographer and an Entrepreneur by heart, Abdullah now helps a
+              lot of Job Professionals, Freelancer Photographers,
+              Cinematographer or everyone who is looking to start and venture
+              into Wedding Photography Business.
+            </p>
 
-                    <article class="bootcamp-video-card">
-                        <div class="bootcamp-video-frame bootcamp-video-embed">
-                            <iframe
-                                src="https://www.youtube.com/embed/8pSIpjq-d3U?si=QXGw4OXeoO5nfLqr" 
-                                title="Bootcamp success video 2"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
+            <p>
+              His Marketing Formula to get your own clients using the power of
+              Social Media Optimisation and Social Media Marketing helps
+              photographers and cinematographers to get their own clients
+              without depending on any Online Wedding Portals like WedmeGood,
+              WeddingWire etc to get the leads for their Business. His Marketing
+              Formula makes people self dependent on their business.
+            </p>
+          </div>
+        </div>
+      </section>
 
-                    <article class="bootcamp-video-card">
-                        <div class="bootcamp-video-frame bootcamp-video-embed">
-                            <iframe
-                                src="https://www.youtube.com/embed/KHQa0YgBBlU?si=8kgnSHIrsMxpWH6a"
-                                title="Bootcamp success video 3"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+      <section class="bonuses-section">
+        <div class="bonuses-wrap">
+          <header class="bonuses-header">
+            <h2>
+              <span class="bonuses-gift">🎁</span>
+              Unlock Workshop <span>Bonuses</span> Worth
+              <span>₹5,597/-</span>
+            </h2>
+          </header>
 
-        <section class="results-gallery-section">
-            <div class="results-gallery-wrap">
-                <div class="results-gallery-grid">
-                    <figure class="results-gallery-card">
-                        <img src="/test1.png" alt="Client result screenshot 1">
-                    </figure>
+          <div class="bonuses-grid">
+            <article class="bonus-card">
+              <div class="bonus-label">Bonus #1</div>
+              <div class="bonus-visual">
+                <img src="/bonus1.png" alt="Bonus 1" />
+              </div>
+              <h3>Get Your FREE Photo Storage for your Business</h3>
+              <ul>
+                <li>Unlimited Storage</li>
+                <li>Secure and Reliable</li>
+                <li>Access Anytime, Anywhere</li>
+                <li>Easy Sharing</li>
+              </ul>
+            </article>
 
-                    <figure class="results-gallery-card">
-                        <img src="/test2.png" alt="Client result screenshot 2">
-                    </figure>
+            <article class="bonus-card">
+              <div class="bonus-label">Bonus #2</div>
+              <div class="bonus-visual">
+                <img src="/bonus2.png" alt="Bonus 2" />
+              </div>
+              <h3>Get 1 Month Trial Of Project Management System</h3>
+              <ul>
+                <li>Comprehensive Task Management</li>
+                <li>Collaborative Team Environment</li>
+                <li>Budget Tracking and Expense Management</li>
+              </ul>
+            </article>
 
-                    <figure class="results-gallery-card">
-                        <img src="/test3.png" alt="Client result screenshot 3">
-                    </figure>
+            <article class="bonus-card">
+              <div class="bonus-label">Bonus #3</div>
+              <div class="bonus-visual">
+                <img src="/bonus3.png" alt="Bonus 3" />
+              </div>
+              <h3>
+                Template Collection Of Lightroom, Photoshop &amp; Premiere Pro
+              </h3>
+              <ul>
+                <li>Photoshop for Endless Possibilities</li>
+                <li>Lightroom for Perfecting Photos</li>
+                <li>Premiere Pro for Stunning Videos</li>
+              </ul>
+            </article>
+          </div>
+          <div class="worth-videos">
+            <article class="worth-video-card">
+              <div class="worth-video-frame worth-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/4WwMevMW3MA?si=ekBJUpNAB-X_XPH_"
+                  title="Worth it video 1"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
 
-                    <figure class="results-gallery-card">
-                        <img src="/test4.png" alt="Client result screenshot 4">
-                    </figure>
+            <article class="worth-video-card">
+              <div class="worth-video-frame worth-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/JCHQzp6nQM4?si=HqKdBkmcWQA93Fj3"
+                  title="Worth it video 2"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+          </div>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
+      </section>
 
-                    <figure class="results-gallery-card results-gallery-card-tall">
-                        <img src="/test5.png" alt="Client result screenshot 5">
-                    </figure>
+      <section class="reviews-section">
+        <div class="reviews-wrap">
+          <header class="reviews-header">
+            <h2>SEE WHAT OTHER PEOPLE HAVE TO SAY ABOUT ME</h2>
+          </header>
 
-                    <figure class="results-gallery-card">
-                        <img src="/test6.png" alt="Client result screenshot 6">
-                    </figure>
-                </div>
-            </div>
-                <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
-        </section>
+          <div class="reviews-grid">
+            <figure class="reviews-card">
+              <img src="fac1.png" alt="Review screenshot 1" />
+            </figure>
 
-        <section class="trainer-section">
-            <div class="trainer-wrap">
-                <header class="trainer-header">
-                    <h2>
-                        BUT <span>“WHY AM I SHARING MY SECRETS?”</span>
-                        WITH YOU &amp; WHO AM I...???
-                    </h2>
-                    <p>MEET YOUR TRAINER</p>
-                </header>
+            <figure class="reviews-card">
+              <img src="fac2.png" alt="Review screenshot 2" />
+            </figure>
 
-                <div class="trainer-top">
-                    <div class="trainer-image-card">
-                        <img src="/about.png" alt="Trainer portrait">
-                    </div>
+            <figure class="reviews-card">
+              <img src="fac3.png" alt="Review screenshot 3" />
+            </figure>
 
-                    <div class="trainer-info-card">
-                        <h3>Abdullah Ansari</h3>
-                        <p class="trainer-role">Wedding Photography Business Coach</p>
-                        <p class="trainer-role">Founder - Wedding Photography Business Mastery</p>
-                        <p class="trainer-summary">
-                            After completing his MBA from IIM Raipur, Abdullah chose the path of
-                            Wedding Photography and Films as his passion and started his own company
-                            "Grey White Studios". In last 3 years, his company has achieved a
-                            turnover of more than 1.5 crores INR
-                        </p>
-                    </div>
-                </div>
+            <figure class="reviews-card">
+              <img src="fac4.png" alt="Review screenshot 4" />
+            </figure>
 
-                <div class="trainer-bio-card">
-                    <p>
-                        Born and brought up in Delhi, he always wanted to do something of his own. He left a high paying
-                        job at IIM's to work on his passion of Wedding Photography. He is an MBA in Marketing and Human
-                        Resources. His company Grey White Studios has a clientele from the Tollywood Industry and has shot
-                        the weddings of renowned tycoons of Business.
-                    </p>
+            <figure class="reviews-card">
+              <img src="fac5.png" alt="Review screenshot 5" />
+            </figure>
 
-                    <p>
-                        A Photographer and an Entrepreneur by heart, Abdullah now helps a lot of Job Professionals,
-                        Freelancer Photographers, Cinematographer or everyone who is looking to start and venture into
-                        Wedding Photography Business.
-                    </p>
+            <figure class="reviews-card">
+              <img src="fac6.png" alt="Review screenshot 6" />
+            </figure>
+          </div>
+          <div class="worth-videos">
+            <article class="worth-video-card">
+              <div class="worth-video-frame worth-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/w87RJ9hBy30?si=fWbQwnz4vYsFwDET"
+                  title="Worth it video 1"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
 
-                    <p>
-                        His Marketing Formula to get your own clients using the power of Social Media Optimisation and Social Media Marketing helps photographers and cinematographers to get their own clients without depending on any Online Wedding Portals like WedmeGood, WeddingWire etc to get the leads for their Business. His Marketing Formula makes people self dependent on their business.
-                    </p>
-                </div>
-            </div>
-        </section>
+            <article class="worth-video-card">
+              <div class="worth-video-frame worth-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/ouBvN46gM6M?si=EFDkaq1ehUKm7Bqd"
+                  title="Worth it video 2"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+          </div>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
+      </section>
 
-        <section class="bonuses-section">
-            <div class="bonuses-wrap">
-                <header class="bonuses-header">
-                    <h2>
-                        <span class="bonuses-gift">🎁</span>
-                        Unlock Workshop <span>Bonuses</span> Worth
-                        <span>₹5,597/-</span>
-                    </h2>
-                </header>
+      <section class="faq-section">
+        <div class="faq-wrap">
+          <header class="faq-header">
+            <h2>Frequently Asked Questions</h2>
+          </header>
 
-                <div class="bonuses-grid">
-                    <article class="bonus-card">
-                        <div class="bonus-label">Bonus #1</div>
-                        <div class="bonus-visual">
-                            <img src="/bonus1.png" alt="Bonus 1">
-                        </div>
-                        <h3>Get Your FREE Photo Storage for your Business</h3>
-                        <ul>
-                            <li>Unlimited Storage</li>
-                            <li>Secure and Reliable</li>
-                            <li>Access Anytime, Anywhere</li>
-                            <li>Easy Sharing</li>
-                        </ul>
-                    </article>
+          <div class="faq-list">
+            <details class="faq-item" open>
+              <summary>
+                <span
+                  >1. What should i join this bootcamp if information is free on
+                  the internet?</span
+                >
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="faq-answer">
+                Even if the information is available on the internet, has it
+                changed your life? You’re still suffering the same problem,
+                which means there’s more to the puzzle than you thought, there’s
+                no mentor, guiding and showing you the right path, In this
+                bootcamp, you’ll discover a proven path to create your 6-figure
+                income without tests and trials, without wasting your time on
+                failed practices, your path to success will be much shorter.
+              </div>
+            </details>
 
-                    <article class="bonus-card">
-                        <div class="bonus-label">Bonus #2</div>
-                        <div class="bonus-visual">
-                            <img src="/bonus2.png" alt="Bonus 2">
-                        </div>
-                        <h3>Get 1 Month Trial Of Project Management System</h3>
-                        <ul>
-                            <li>Comprehensive Task Management</li>
-                            <li>Collaborative Team Environment</li>
-                            <li>Budget Tracking and Expense Management</li>
-                        </ul>
-                    </article>
+            <details class="faq-item">
+              <summary>
+                <span
+                  >2. What if I fail to register before all the spots are
+                  taken?</span
+                >
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="faq-answer">
+                Sorry to say but in that case, we won’t have any options to help
+                you. I am not sure If I can keep the discounted price next time.
+                Therefore, It is best advised you register soon to avail the
+                opportunity.
+              </div>
+            </details>
 
-                    <article class="bonus-card">
-                        <div class="bonus-label">Bonus #3</div>
-                        <div class="bonus-visual">
-                            <img src="/bonus3.png" alt="Bonus 3">
-                        </div>
-                        <h3>Template Collection Of Lightroom, Photoshop &amp; Premiere Pro</h3>
-                        <ul>
-                            <li>Photoshop for Endless Possibilities</li>
-                            <li>Lightroom for Perfecting Photos</li>
-                            <li>Premiere Pro for Stunning Videos</li>
-                        </ul>
-                    </article>
-                </div>
-                  <div class="worth-videos">
-                    <article class="worth-video-card">
-                        <div class="worth-video-frame worth-video-embed">
-                            <iframe
-                               src="https://www.youtube.com/embed/4WwMevMW3MA?si=ekBJUpNAB-X_XPH_" 
-                                title="Worth it video 1"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
+            <details class="faq-item">
+              <summary>
+                <span>3. How do I join this bootcamp?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="faq-answer">
+                After registration, you’ll be added to a Whatsapp group where
+                you’ll receive the zoom link to join the bootcamp an hour
+                before.You’ll also receive emails containing further information
+                about the bootcamp instantly after registering.
+              </div>
+            </details>
 
-                    <article class="worth-video-card">
-                        <div class="worth-video-frame worth-video-embed">
-                            <iframe
-                                src="https://www.youtube.com/embed/JCHQzp6nQM4?si=HqKdBkmcWQA93Fj3"
-                                title="Worth it video 2"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
-                </div>
-                    <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
-            </div>
-        </section>
+            <details class="faq-item">
+              <summary>
+                <span>4. Will i get a recording of this workshop?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="faq-answer">
+                No recordings are provided to ensure every registrant attends
+                the workshop live and gets the best out of the workshop..
+              </div>
+            </details>
+          </div>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
+      </section>
 
-        <section class="reviews-section">
-            <div class="reviews-wrap">
-                <header class="reviews-header">
-                    <h2>SEE WHAT OTHER PEOPLE HAVE TO SAY ABOUT ME</h2>
-                </header>
+      <section class="freelancers-section">
+        <div class="freelancers-wrap">
+          <header class="freelancers-header">
+            <h2>WHO THIS WORKSHOP IS SPECIALLY DESIGNED FOR</h2>
+            <p>INDIAN WEDDING FREELANCERS 📢</p>
+          </header>
 
-                <div class="reviews-grid">
-                    <figure class="reviews-card">
-                        <img src="fac1.png" alt="Review screenshot 1">
-                    </figure>
+          <div class="freelancers-copy">
+            <p class="freelancers-line">
+              Register before 7th Apr 2026, to unlock bonuses worth ₹ 5,997
+            </p>
+            <p class="freelancers-deadline">
+              Register before midnight of 7th Apr 2026, 12:00<br />AM am
+            </p>
+            <p class="freelancers-line freelancers-line-bottom">
+              Unlock Workshop Bonuses Worth ₹24,500/-
+            </p>
+          </div>
+          <div class="worth-videos">
+            <article class="worth-video-card">
+              <div class="worth-video-frame worth-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/OT-gkOcR-Vs?si=mYr6pqnN3PN-iavv"
+                  title="Worth it video 1"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
 
-                    <figure class="reviews-card">
-                        <img src="fac2.png" alt="Review screenshot 2">
-                    </figure>
+            <article class="worth-video-card">
+              <div class="worth-video-frame worth-video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/seIGHUhGrr0?si=2s6Rn4GUsWMem0HL"
+                  title="Worth it video 2"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+          </div>
+          <a class="cta-button" href="#book-seat">
+            <span>CLICK HERE TO BOOK YOUR SEAT</span>
+            <small>Last 5 Seats Left ! Join Now</small>
+          </a>
+        </div>
+      </section>
 
-                    <figure class="reviews-card">
-                        <img src="fac3.png" alt="Review screenshot 3">
-                    </figure>
+      <footer class="site-footer">
+        <div class="site-footer-wrap">
+          <div class="site-footer-disclaimer">
+            <p>
+              This site is not a part of the Facebook™ website or Facebook™ Inc.
+              Additionally, This site is NOT endorsed by Facebook™ in any way.
+              FACEBOOK™ is a trademark of FACEBOOK™ Inc. As stipulated by law,
+              we can not and do not make any guarantees about your ability to
+              get results or earn any money with my ideas, information, tools or
+              strategies. I just want to help you by giving great content,
+              direction and strategies that worked well for me and my students
+              and that I believe can help you move forward. All of my terms,
+              privacy policies and disclaimers for this program and website can
+              be accessed via the links. I feel transparency is important and I
+              hold ourselves (you & me) to a high standard of integrity. Thanks
+              for stopping by. I hope this training and content brings you a lot
+              of value & results.
+            </p>
+          </div>
 
-                    <figure class="reviews-card">
-                        <img src="fac4.png" alt="Review screenshot 4">
-                    </figure>
-
-                    <figure class="reviews-card">
-                        <img src="fac5.png" alt="Review screenshot 5">
-                    </figure>
-
-                    <figure class="reviews-card">
-                        <img src="fac6.png" alt="Review screenshot 6">
-                    </figure>
-                </div>
-                    <div class="worth-videos">
-                    <article class="worth-video-card">
-                        <div class="worth-video-frame worth-video-embed">
-                            <iframe
-                               src="https://www.youtube.com/embed/w87RJ9hBy30?si=fWbQwnz4vYsFwDET" 
-                                title="Worth it video 1"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
-
-                    <article class="worth-video-card">
-                        <div class="worth-video-frame worth-video-embed">
-                            <iframe
-                               src="https://www.youtube.com/embed/ouBvN46gM6M?si=EFDkaq1ehUKm7Bqd"
-                                title="Worth it video 2"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
-                </div>
-                    <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
-            </div>
-        </section>
-
-        <section class="faq-section">
-            <div class="faq-wrap">
-                <header class="faq-header">
-                    <h2>Frequently Asked Questions</h2>
-                </header>
-
-                <div class="faq-list">
-                    <details class="faq-item" open>
-                        <summary>
-                            <span>1. What should i join this bootcamp if information is free on the internet?</span>
-                            <span class="faq-icon" aria-hidden="true">+</span>
-                        </summary>
-                        <div class="faq-answer">
-                            Even if the information is available on the internet, has it changed your life? You’re still
-                            suffering the same problem, which means there’s more to the puzzle than you thought, there’s
-                            no mentor, guiding and showing you the right path, In this bootcamp, you’ll discover a proven
-                            path to create your 6-figure income without tests and trials, without wasting your time on
-                            failed practices, your path to success will be much shorter.
-                        </div>
-                    </details>
-
-                    <details class="faq-item">
-                        <summary>
-                            <span>2. What if I fail to register before all the spots are taken?</span>
-                            <span class="faq-icon" aria-hidden="true">+</span>
-                        </summary>
-                        <div class="faq-answer">
-                            Sorry to say but in that case, we won’t have any options to help you. I am not sure If I can keep the discounted price next time. Therefore, It is best advised you register soon to avail the opportunity.
-                        </div>
-                    </details>
-
-                    <details class="faq-item">
-                        <summary>
-                            <span>3. How do I join this bootcamp?</span>
-                            <span class="faq-icon" aria-hidden="true">+</span>
-                        </summary>
-                        <div class="faq-answer">
-                            After registration, you’ll be added to a Whatsapp group where you’ll receive the zoom link to join the bootcamp an hour before.You’ll also receive emails containing further information about the bootcamp instantly after registering.
-                        </div>
-                    </details>
-
-                    <details class="faq-item">
-                        <summary>
-                            <span>4. Will i get a recording of this workshop?</span>
-                            <span class="faq-icon" aria-hidden="true">+</span>
-                        </summary>
-                        <div class="faq-answer">
-                           No recordings are provided to ensure every registrant attends the workshop live and gets the best out of the workshop..
-                        </div>
-                    </details>
-                </div>
-                      <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
-            </div>
-        </section>
-
-        <section class="freelancers-section">
-            <div class="freelancers-wrap">
-                <header class="freelancers-header">
-                    <h2>WHO THIS WORKSHOP IS SPECIALLY DESIGNED FOR</h2>
-                    <p>INDIAN WEDDING FREELANCERS 📢</p>
-                </header>
-
-                <div class="freelancers-copy">
-                    <p class="freelancers-line">Register before 7th Apr 2026, to unlock bonuses worth ₹ 5,997</p>
-                    <p class="freelancers-deadline">Register before midnight of 7th Apr 2026, 12:00<br>AM am</p>
-                    <p class="freelancers-line freelancers-line-bottom">Unlock Workshop Bonuses Worth ₹24,500/-</p>
-                </div>
-                   <div class="worth-videos">
-                    <article class="worth-video-card">
-                        <div class="worth-video-frame worth-video-embed">
-                            <iframe
-                               src="https://www.youtube.com/embed/OT-gkOcR-Vs?si=mYr6pqnN3PN-iavv" 
-                                title="Worth it video 1"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
-
-                    <article class="worth-video-card">
-                        <div class="worth-video-frame worth-video-embed">
-                            <iframe
-                                src="https://www.youtube.com/embed/seIGHUhGrr0?si=2s6Rn4GUsWMem0HL"
-                                title="Worth it video 2"
-                                loading="lazy"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </article>
-                </div>
-                    <a class="cta-button" href="#book-seat">
-                    <span>CLICK HERE TO BOOK YOUR SEAT</span>
-                    <small>Last 5 Seats Left ! Join Now</small>
-                </a>
-            </div>
-            
-        </section>
-
-        <footer class="site-footer">
-            <div class="site-footer-wrap">
-                <div class="site-footer-disclaimer">
-                    <p>
-                        This site is not a part of the Facebook™ website or Facebook™ Inc. Additionally, This site is NOT endorsed by Facebook™ in any way.
-                        FACEBOOK™ is a trademark of FACEBOOK™ Inc. As stipulated by law, we can not and do not make any guarantees about your ability to get
-                        results or earn any money with my ideas, information, tools or strategies. I just want to help you by giving great content, direction
-                        and strategies that worked well for me and my students and that I believe can help you move forward. All of my terms, privacy policies
-                        and disclaimers for this program and website can be accessed via the links. I feel transparency is important and I hold ourselves
-                        (you & me) to a high standard of integrity. Thanks for stopping by. I hope this training and content brings you a lot of value & results.
-                    </p>
-                </div>
-
-                <div class="site-footer-bar">
-                    <p class="site-footer-copy">© 2026 Abdullah Ansari. All rights reserved.</p>
-                 </div>
-            </div>
-        </footer>
+          <div class="site-footer-bar">
+            <p class="site-footer-copy">
+              © 2026 Abdullah Ansari. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </main>
     <!-- Sticky Bottom Footer -->
     <div class="sticky-footer">
-        <div class="sticky-container">
-            <div class="sticky-left">
-                <span class="sticky-title">Limited-Time Bonus</span>
-                <span class="sticky-timer">Offer Ends in <span id="countdown-timer">02:15</span> Mins</span>
-            </div>
-            <div class="sticky-right">
-                <button class="sticky-btn">Register Now</button>
-            </div>
+      <div class="sticky-container">
+        <div class="sticky-left">
+          <span class="sticky-title">Limited-Time Bonus</span>
+          <span class="sticky-timer"
+            >Offer Ends in <span id="countdown-timer">02:15</span> Mins</span
+          >
         </div>
+        <div class="sticky-right">
+          <button class="sticky-btn">Register Now</button>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

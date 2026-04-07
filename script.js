@@ -5,53 +5,56 @@ const seminarVideoFrame = document.querySelector(".video-frame");
 const heroPlayButton = document.querySelector(".video-frame .play-button");
 
 if (scrollTopButton) {
-    const toggleScrollTop = () => {
-        scrollTopButton.classList.toggle("is-visible", window.scrollY > 240);
-    };
+  const toggleScrollTop = () => {
+    scrollTopButton.classList.toggle("is-visible", window.scrollY > 240);
+  };
 
-    toggleScrollTop();
-    window.addEventListener("scroll", toggleScrollTop, { passive: true });
+  toggleScrollTop();
+  window.addEventListener("scroll", toggleScrollTop, { passive: true });
 
-    scrollTopButton.addEventListener("click", () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
+  scrollTopButton.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
     });
+  });
 }
 
 if (backToTopLink) {
-    backToTopLink.addEventListener("click", (event) => {
-        event.preventDefault();
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
+  backToTopLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
     });
+  });
 }
 
 if (seminarVideo && heroPlayButton) {
-    const syncHeroPlayButton = () => {
-        heroPlayButton.classList.toggle("is-hidden", !seminarVideo.paused && !seminarVideo.ended);
-    };
+  const syncHeroPlayButton = () => {
+    heroPlayButton.classList.toggle(
+      "is-hidden",
+      !seminarVideo.paused && !seminarVideo.ended,
+    );
+  };
 
-    const toggleHeroVideoPlayback = () => {
-        if (seminarVideo.paused || seminarVideo.ended) {
-            seminarVideo.play();
-            return;
-        }
-
-        seminarVideo.pause();
-    };
-
-    seminarVideo.addEventListener("play", syncHeroPlayButton);
-    seminarVideo.addEventListener("pause", syncHeroPlayButton);
-    seminarVideo.addEventListener("ended", syncHeroPlayButton);
-    seminarVideo.controls = false;
-
-    if (seminarVideoFrame) {
-        seminarVideoFrame.addEventListener("click", toggleHeroVideoPlayback);
+  const toggleHeroVideoPlayback = () => {
+    if (seminarVideo.paused || seminarVideo.ended) {
+      seminarVideo.play();
+      return;
     }
 
-    syncHeroPlayButton();
+    seminarVideo.pause();
+  };
+
+  seminarVideo.addEventListener("play", syncHeroPlayButton);
+  seminarVideo.addEventListener("pause", syncHeroPlayButton);
+  seminarVideo.addEventListener("ended", syncHeroPlayButton);
+  seminarVideo.controls = false;
+
+  if (seminarVideoFrame) {
+    seminarVideoFrame.addEventListener("click", toggleHeroVideoPlayback);
+  }
+
+  syncHeroPlayButton();
 }
